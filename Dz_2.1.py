@@ -1,10 +1,10 @@
 print("Please enter four number:")
 Numbers =input()
 num1 = int(Numbers) // 1000
-print(num1)
 num2 = ((int(Numbers) - num1*1000) // 100)
-print(num2)
 num3 = ((int(Numbers)- (num1*1000 + num2*100)) // 10 )
-print(num3)
 num4 = (int(Numbers)- (num1*1000 + num2*100 + num3*10) )
+print(num1)
+print(num2)
+print(num3)
 print(num4)
