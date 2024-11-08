@@ -1,17 +1,10 @@
-
 print("Please enter four number:")
 Numbers =input()
-
-num1 = str(Numbers)[0]
-num1 = int(num1) // 1
-num2 = str(Numbers)[1]
-num2 = int(num2) // 1
-num3 = str(Numbers)[2]
-num3 = int(num3) // 1
-num4 = str(Numbers)[3]
-num4 = int(num4) // 1
-
+num1 = int(Numbers) // 1000
 print(num1)
+num2 = ((int(Numbers) - num1*1000) // 100)
 print(num2)
+num3 = ((int(Numbers)- (num1*1000 + num2*100)) // 10 )
 print(num3)
+num4 = (int(Numbers)- (num1*1000 + num2*100 + num3*10) )
 print(num4)
