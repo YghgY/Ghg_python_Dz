@@ -10,7 +10,7 @@ num3 = str(Numbers)[2]
 num3 = int(num3) // 1
 num4 = str(Numbers)[3]
 num4 = int(num4) // 1
-
+#a
 print(num1)
 print(num2)
 print(num3)
